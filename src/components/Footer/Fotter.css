@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-section {
+    background-image: url('/src/image/footer.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    gap: 160px;
+    
+}
+
+/* .contact-info, .visit-info {
+    flex: 1;
+    margin: 10px;
+} */
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+
+    color: #FFFFFF;
+}
+
+.icon-info {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    display: flex;
+
+    color: #F1CDB3;
+    
+}
+
+.icon {
+    margin-right: 20px;
+}
