@@ -1,9 +1,46 @@
 .container {
     position: relative;
+    color: white;
 }
 
 .background {
     position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
     width: 100%;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
     height: 100vh;
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.text > h1 {
+    line-height: 57.5px;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.text > p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.content > img {
+    width: 700px;
+    height: 728px;
+    object-fit: contain;
+    align-self: flex-end;
 }
